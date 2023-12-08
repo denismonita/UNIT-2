@@ -1,0 +1,87 @@
+.titlu  {
+  color: grey;
+  border: 2px solid #201F1E ; 
+  padding: 10px;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #322E2C;/
+}
+
+.link-email {
+
+    text-decoration: underline;
+    color: rgb(173, 146, 96);
+    font-size: 20px
+}
+.container {
+  border: 2px solid #311c31;
+  background-color : #d6dce5 ;
+  width: 850px; 
+  height: 750px;
+  margin: auto;
+}
+.structura {
+  text-decoration: underline;
+  color: #B534B7 ; 
+}
+.caracteristici {
+  text-decoration: underline;
+  color: #B534B7 ;
+  font-size: 32px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.command {
+  list-style-position: inside;
+  text-align: right;
+}
+.mySlides {
+  display: none;
+}
+
+.mySlides {
+  display: none;
+  position: relative;
+}
+
+.mySlides img {
+  margin: 0 auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from { opacity: .4 }
+  to { opacity: 1 }
+}
+
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+.colored-border {
+  border: 2px solid orange; 
+  
+}
